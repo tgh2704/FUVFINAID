@@ -222,8 +222,8 @@ print(f'Residual Sum of Squares: {SSR:.4f}')
 
 # Create input DataFrame (values in VND)
 input_df = pd.DataFrame([[
-    famsize_ip, income_total_ip, cashrep_ip, rentals_nonagri_ip, income_ea_ip, interest_ip,
-    pension_ip, dividends_ip, food_ip, clothing_ip, housing_ip, health_ip, transport_ip,
+    famsize_ip, dividends_ip, cashrep_ip, rentals_nonagri_ip, income_ea_ip, interest_ip,
+    pension_ip, income_total_ip, food_ip, clothing_ip, housing_ip, health_ip, transport_ip,
     communication_ip, recreation_ip, education_ip, misc_ip, dur_furniture_ip, cash_loan_ip,
     app_install_ip, veh_install_ip, rural_ip
 ]], columns=var_names)
